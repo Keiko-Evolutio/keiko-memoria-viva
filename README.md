@@ -19,13 +19,13 @@ Das Projekt orientiert sich an den Stärken biologischer Gedächtnisarchitekture
 ## Bisherige Veröffentlichungen
 
 **[Selektivität: Der kritische Filter](https://github.com/Keiko-Evolutio/keiko-memoria-viva/tree/main/selective_memory_filtering/selective_memory_filtering.ipynb)**
-Selektivität beschreibt die Fähigkeit des gemeinsamen Speichers (Memory), nicht nur Erfahrungen und Umweltveränderungen zu verarbeiten, sondern auch gezielt zu entscheiden, welche Informationen aufgenommen, gespeichert oder verworfen werden.
+Selektivität beschreibt die Fähigkeit des gemeinsamen Speichers, nicht nur Erfahrungen und Umweltveränderungen zu verarbeiten, sondern auch gezielt zu entscheiden, welche Informationen aufgenommen, gespeichert oder verworfen werden.
 
 **[Plastizität: Die Kunst der Anpassung](https://github.com/Keiko-Evolutio/keiko-memoria-viva/blob/main/plastic_memory/plastic_memory.ipynb)**
-Plastizität bezeichnet die Fähigkeit des gemeinsamen Speichers (Memory), seine Struktur und Funktion dynamisch an Erfahrungen und Umweltbedingungen anzupassen. Das System kann flexibel neue Informationen integrieren, bestehende Verknüpfungen verstärken oder abschwächen und seine Speicherarchitektur reorganisieren – vergleichbar mit den Anpassungsprozessen des menschlichen Gehirns.
+Plastizität bezeichnet die Fähigkeit des gemeinsamen Speichers, seine Struktur und Funktion dynamisch an Erfahrungen und Umweltbedingungen anzupassen. Das System kann flexibel neue Informationen integrieren, bestehende Verknüpfungen verstärken oder abschwächen und seine Speicherarchitektur reorganisieren – vergleichbar mit den Anpassungsprozessen des menschlichen Gehirns.
 
 **[Vergessen: Die unterschätzte Superkraft](https://github.com/Keiko-Evolutio/keiko-memoria-viva/tree/main/adaptive_forgetting)**
-Adaptives Vergessen beschreibt die Fähigkeit des gemeinsamen Speichers (Memory), unwichtige Informationen gezielt und dynamisch zu löschen. Dadurch bleibt das System flexibel, ressourcenschonend und kann sich auf relevante Inhalte konzentrieren, ohne an Effizienz zu verlieren.
+Adaptives Vergessen beschreibt die Fähigkeit des gemeinsamen Speichers, unwichtige Informationen gezielt und dynamisch zu löschen. Dadurch bleibt das System flexibel, ressourcenschonend und kann sich auf relevante Inhalte konzentrieren, ohne an Effizienz zu verlieren.
 
 ## Geplante Veröffentlichungen
 
