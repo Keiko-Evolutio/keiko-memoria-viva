@@ -1,4 +1,4 @@
-# Vergessen: Die unterschätzte Superkraft
+# Vergessen: die unterschätzte Superkraft
 
 Vergessen ist kein Defizit, sondern eine Voraussetzung für Handlungsfähigkeit: Es schafft Raum für Neues und schützt vor
 Überlastung. Bereits Hermann Ebbinghaus zeigte in seinen bahnbrechenden Experimenten, dass Vergessen einer klaren
@@ -15,4 +15,4 @@ Nebensächlichem zu unterscheiden, und im entscheidenden Moment blockiert durch 
 
 ---
 
-**Die Ausarbeitung vom Notebook erfolgt in kürze!**
+**Die Ausarbeitung vom Notebook erfolgt in Kürze!**
