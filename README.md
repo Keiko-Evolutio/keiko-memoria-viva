@@ -39,6 +39,7 @@ Adaptives Vergessen beschreibt die Fähigkeit des gemeinsamen Speichers, unwicht
 - **Governance & Compliance** – Das „Recht auf Vergessen“ im regulierten Umfeld.
 - **Neuromorphe Computing-Architekturen** – Energieeffizienz und Hardwareintegration.
 - **Evolutionäre Gedächtnisarchitekturen** – Langfristige Entwicklungsperspektiven.
+- und mehr...
 
 ## Vision
 
