@@ -18,10 +18,10 @@ Das Projekt orientiert sich an den Stärken biologischer Gedächtnisarchitekture
 
 ## Bisherige Veröffentlichungen
 
-**[Selektivität: Der kritische Filter](https://github.com/Keiko-Evolutio/keiko-memoria-viva/tree/main/selective_memory_filtering)**
+**[Selektivität: Der kritische Filter](https://github.com/Keiko-Evolutio/keiko-memoria-viva/tree/main/selective_memory_filtering/selective_memory_filtering.ipynb)**
 Selektivität beschreibt die Fähigkeit des gemeinsamen Speichers (Memory), nicht nur Erfahrungen und Umweltveränderungen zu verarbeiten, sondern auch gezielt zu entscheiden, welche Informationen aufgenommen, gespeichert oder verworfen werden.
 
-**[Plastizität: Die Kunst der Anpassung](https://github.com/Keiko-Evolutio/keiko-memoria-viva/tree/main/plastic_memory)**
+**[Plastizität: Die Kunst der Anpassung](https://github.com/Keiko-Evolutio/keiko-memoria-viva/blob/main/plastic_memory/plastic_memory.ipynb)**
 Plastizität bezeichnet die Fähigkeit des gemeinsamen Speichers (Memory), seine Struktur und Funktion dynamisch an Erfahrungen und Umweltbedingungen anzupassen. Das System kann flexibel neue Informationen integrieren, bestehende Verknüpfungen verstärken oder abschwächen und seine Speicherarchitektur reorganisieren – vergleichbar mit den Anpassungsprozessen des menschlichen Gehirns.
 
 **[Vergessen: Die unterschätzte Superkraft](https://github.com/Keiko-Evolutio/keiko-memoria-viva/tree/main/adaptive_forgetting)**
