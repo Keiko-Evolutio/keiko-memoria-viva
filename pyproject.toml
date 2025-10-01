@@ -1,0 +1,117 @@
+[project]
+name = "keiko-memoria-viva"
+version = "0.1.0"
+description = "Biologisch inspirierte Gedächtniskonzepte für Multi-Agent-Systeme"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+keywords = [
+    "memory-systems",
+    "multi-agent",
+    "neurobiological-concepts",
+    "adaptive-memory",
+    "machine-learning"
+]
+
+dependencies = [
+    "numpy>=2.0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+]
+
+[project.urls]
+Homepage = "https://github.com/Keiko-Evolutio/keiko-memoria-viva"
+Repository = "https://github.com/Keiko-Evolutio/keiko-memoria-viva"
+Issues = "https://github.com/Keiko-Evolutio/keiko-memoria-viva/issues"
+
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["adaptive_forgetting", "plastic_memory", "selective_memory_filtering"]
+
+[tool.black]
+line-length = 88
+target-version = ["py310", "py311", "py312"]
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",  # line too long, handled by black
+    "B008",  # do not perform function calls in argument defaults
+    "C901",  # too complex
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+check_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+strict_equality = true
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --strict-markers"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.coverage.run]
+source = ["adaptive_forgetting", "plastic_memory", "selective_memory_filtering"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "*/.venv/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
