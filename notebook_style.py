@@ -27,6 +27,7 @@ _DEFAULT_BASE_COLORS: Dict[str, str] = {
 
 # Vordefinierte semantische Aliasse
 _DEFAULT_ALIASES: Dict[str, str] = {
+    # General semantics
     "baseline": "neutral",
     "threshold": "quaternary",
     "positive": "tertiary",
@@ -34,6 +35,13 @@ _DEFAULT_ALIASES: Dict[str, str] = {
     "retention": "primary",
     "decay": "secondary",
     "interference": "tertiary",
+    # Notebook-specific semantics frequently used across plots
+    # Map to base palette keys (not other aliases)
+    "ltp": "tertiary",               # green
+    "ltd": "quaternary",             # red
+    "fraud": "secondary",            # orange (risk/suspicion)
+    "fraud_risk": "secondary",       # synonym for convenience
+    "synaptic_strength": "primary",  # blue
 }
 
 # Matplotlib-Grundkonfiguration

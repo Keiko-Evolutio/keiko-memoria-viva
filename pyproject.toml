@@ -16,6 +16,7 @@ dependencies = [
     "numpy>=2.0.2",
     "pandas>=2.2.0",
     "matplotlib>=3.8.0",
+    "mplcursors>=0.7",
 ]
 
 [build-system]
